@@ -41,7 +41,7 @@ set lines=999 columns=999
 set number
 set undofile
 set nowrap
-set guifont=Inconsolata:h22
+set guifont=Menlo:h22
 set isk+=-
 set ignorecase
 set smartcase
@@ -50,8 +50,10 @@ set showmatch
 set hlsearch
 set numberwidth=4
 set showcmd
+set nofoldenable
 set whichwrap=b,s,<,>,[,]
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,.DS_Store
+set cursorline
 set guioptions-=l
 set guioptions-=L
 set guioptions-=r
