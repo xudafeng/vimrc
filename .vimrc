@@ -83,11 +83,6 @@ Plugin 'spiiph/vim-space'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'vim-scripts/trailing-whitespace'
 Plugin 'tpope/vim-fugitive'
-Plugin 'Valloric/YouCompleteMe'
-let g:ycm_complete_in_comments=1
-let g:ycm_min_num_of_chars_for_completion=1
-let g:ycm_cache_omnifunc=0
-let g:ycm_seed_identifiers_with_syntax=1
 Plugin 'nathanaelkane/vim-indent-guides'
 let g:indent_guides_enable_on_vim_startup=1
 let g:indent_guides_guide_size=1
@@ -228,6 +223,12 @@ endfunction
 let g:unite_force_overwrite_statusline = 0
 let g:vimfiler_force_overwrite_statusline = 0
 let g:vimshell_force_overwrite_statusline = 0
+
+Plugin 'Valloric/YouCompleteMe'
+let g:ycm_complete_in_comments=1
+let g:ycm_min_num_of_chars_for_completion=1
+let g:ycm_cache_omnifunc=0
+let g:ycm_seed_identifiers_with_syntax=1
 
 call vundle#end()
 filetype plugin indent on
