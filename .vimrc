@@ -83,6 +83,7 @@ Plugin 'spiiph/vim-space'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'vim-scripts/trailing-whitespace'
 Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
 Plugin 'nathanaelkane/vim-indent-guides'
 let g:indent_guides_enable_on_vim_startup=1
 let g:indent_guides_guide_size=1
