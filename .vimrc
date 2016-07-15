@@ -51,9 +51,10 @@ set numberwidth=4
 set showcmd
 set nofoldenable
 set whichwrap=b,s,<,>,[,]
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,.DS_Store
+set wildignore+=*/tmp/*,*.so,*.sw*,*.zip,*.pyc,.DS_Store,*.un~
 set cursorline
 set cursorcolumn
+set autochdir
 set guioptions-=l
 set guioptions-=L
 set guioptions-=r
@@ -62,7 +63,7 @@ set guioptions-=m
 set guioptions-=T
 set completeopt-=preview
 
-filetype off
+filetype plugin on
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -84,6 +85,8 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'vim-scripts/trailing-whitespace'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'vimwiki/vimwiki'
+Plugin 'hotoo/jsgf.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 let g:indent_guides_enable_on_vim_startup=1
 let g:indent_guides_guide_size=1
