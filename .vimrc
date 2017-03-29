@@ -55,6 +55,9 @@ set wildignore+=*/tmp/*,*.so,*.sw*,*.zip,*.pyc,.DS_Store,*.un~
 set cursorline
 set cursorcolumn
 set autochdir
+set clipboard=unnamed
+set synmaxcol=80
+set transparency=10
 set guioptions-=l
 set guioptions-=L
 set guioptions-=r
@@ -87,6 +90,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'hotoo/jsgf.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 let g:indent_guides_enable_on_vim_startup=1
 let g:indent_guides_guide_size=1
 Plugin 'vim-scripts/_jsbeautify'
