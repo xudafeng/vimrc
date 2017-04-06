@@ -56,7 +56,7 @@ set cursorline
 set cursorcolumn
 set autochdir
 set clipboard=unnamed
-set synmaxcol=80
+set synmaxcol=120
 set transparency=10
 set guioptions-=l
 set guioptions-=L
@@ -77,6 +77,7 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'itchyny/lightline.vim'
 Plugin 'xudafeng/vim-nodejs'
+Plugin 'moll/vim-node'
 Plugin 'xudafeng/vim-search'
 Plugin 'vim-scripts/ctrlp.vim'
 Plugin 'vim-scripts/AutoClose'
