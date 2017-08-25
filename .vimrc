@@ -55,7 +55,6 @@ set wildignore+=*/tmp/*,*.so,*.sw*,*.zip,*.pyc,.DS_Store,*.un~
 set cursorline
 set cursorcolumn
 set autochdir
-set clipboard=unnamed
 set synmaxcol=120
 set transparency=10
 set guioptions-=l
@@ -233,6 +232,8 @@ let g:unite_force_overwrite_statusline = 0
 let g:vimfiler_force_overwrite_statusline = 0
 let g:vimshell_force_overwrite_statusline = 0
 
+Plugin 'posva/vim-vue'
+autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
 call vundle#end()
 filetype plugin indent on
 autocmd! bufwritepost .vimrc source %
