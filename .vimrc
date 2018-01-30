@@ -94,6 +94,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'vim-scripts/Vim-R-plugin'
 Plugin 'mxw/vim-jsx'
 Plugin 'aklt/plantuml-syntax'
+Plugin 'w0rp/ale'
 let g:indent_guides_enable_on_vim_startup=1
 let g:indent_guides_guide_size=1
 Plugin 'vim-scripts/_jsbeautify'
